@@ -29,14 +29,14 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 const mockUsers = [
 	{
 		id: "1",
-		email: "dh2u-admin@directhomes2u.com",
+		email: "admin@example.com",
 		password: "admin123",
 		name: "Admin User",
 		role: "admin",
 	},
 	{
 		id: "2",
-		email: "dh2u-manager@directhomes2u.com",
+		email: "manager@example.com",
 		password: "manager123",
 		name: "Manager User",
 		role: "manager",
